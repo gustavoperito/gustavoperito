@@ -1,0 +1,174 @@
+object CadObjeto: TCadObjeto
+  Left = 268
+  Top = 168
+  BorderStyle = bsNone
+  Caption = 'Cadastro Objeto'
+  ClientHeight = 535
+  ClientWidth = 940
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlTitulo: TPanel
+    Left = 0
+    Top = 0
+    Width = 940
+    Height = 105
+    Align = alTop
+    Alignment = taLeftJustify
+    Caption = ' Cadastro de Objeto'
+    Color = 589937
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -64
+    Font.Name = 'Segoe UI Light'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    object Image4: TImage
+      Left = 864
+      Top = 14
+      Width = 65
+      Height = 65
+      OnClick = Image4Click
+    end
+  end
+  object pnlCorpo: TPanel
+    Left = 0
+    Top = 105
+    Width = 940
+    Height = 343
+    Align = alClient
+    Color = 13948116
+    TabOrder = 1
+  end
+  object pnlBotoes: TPanel
+    Left = 0
+    Top = 448
+    Width = 940
+    Height = 87
+    Align = alBottom
+    Color = 589937
+    TabOrder = 2
+    object Image1: TImage
+      Left = 864
+      Top = 8
+      Width = 65
+      Height = 65
+    end
+    object Image2: TImage
+      Left = 792
+      Top = 6
+      Width = 65
+      Height = 65
+    end
+    object Image3: TImage
+      Left = 720
+      Top = 6
+      Width = 65
+      Height = 65
+    end
+    object Image5: TImage
+      Left = 576
+      Top = 6
+      Width = 65
+      Height = 65
+    end
+    object Image6: TImage
+      Left = 648
+      Top = 6
+      Width = 65
+      Height = 65
+    end
+    object Label1: TLabel
+      Left = 864
+      Top = 64
+      Width = 65
+      Height = 13
+      Alignment = taCenter
+      AutoSize = False
+      BiDiMode = bdLeftToRight
+      Caption = 'Status'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Light'
+      Font.Style = []
+      ParentBiDiMode = False
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 792
+      Top = 64
+      Width = 65
+      Height = 13
+      Alignment = taCenter
+      AutoSize = False
+      BiDiMode = bdLeftToRight
+      Caption = 'Buscar'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Light'
+      Font.Style = []
+      ParentBiDiMode = False
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 720
+      Top = 64
+      Width = 65
+      Height = 13
+      Alignment = taCenter
+      AutoSize = False
+      BiDiMode = bdLeftToRight
+      Caption = 'Gravar'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Light'
+      Font.Style = []
+      ParentBiDiMode = False
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 648
+      Top = 64
+      Width = 65
+      Height = 13
+      Alignment = taCenter
+      AutoSize = False
+      BiDiMode = bdLeftToRight
+      Caption = 'Cancelar'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Light'
+      Font.Style = []
+      ParentBiDiMode = False
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 576
+      Top = 64
+      Width = 65
+      Height = 13
+      Alignment = taCenter
+      AutoSize = False
+      BiDiMode = bdLeftToRight
+      Caption = 'Novo'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Light'
+      Font.Style = []
+      ParentBiDiMode = False
+      ParentFont = False
+    end
+  end
+end
